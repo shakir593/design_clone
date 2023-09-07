@@ -1,0 +1,123 @@
+:root {
+	
+	--ai-black:#000030;
+	--ai-green: #5C893E;
+	--ai-blue: #5383EC;
+	--ai-light-gray: #F2F5F7;
+	--ai-gray: #D7D9DB;
+	--ai-red: #FF0000;
+	--ai-red2: #ce2d29;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+.text-blue { color: var(--ai-blue); }
+.text-green { color: var(--ai-green); }
+.text-gray { color: var(--ai-gray); }
+/*.box-white {background-color:white}*/
+
+.pull-right {float:right}
+
+label.error {color: var(--ai-red);}
+
+input.error, select.error {border-color: var(--ai-red);}
+
+
+.img_wrapper {
+	background-color: #f2f2f2;
+}
+
+button#Order {
+	background-color: var(--ai-red);
+	border-radius: 30px;
+}
+
+button#Order:hover {
+	background-color: var(--ai-red2);	
+}
+
+.badge {
+	color: white;
+	background-color: var(--ai-red);
+	border-radius: 30px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	
+}
+
+body.secure {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../img/ai-webinar-checkout.jpg) !important; 
+	background-color: #f0f4f7 !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
+
+h1.title {
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 58px;
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight:700}
+
+
+.wrapper {
+	box-shadow: 0 0 33px rgba(0,0,48,0.12);
+	border-radius:8px;
+	overflow:hidden;
+	background-color: white;
+}
+
+.wrapper h2 {
+	background-color: var(--ai-black);
+	color: white;
+	font-weight: 700;
+	padding: 10px 40px;
+}
+
+.wrapper h2 span {
+	color: var(--ai-blue);
+}
+
+.wrapper .group {
+	padding:40px;
+}
+
+.wrapper input, 
+.wrapper select
+{
+	background-color: var(--ai-light-gray);
+}
+
+
+.optional img {max-width:100%}
+
+.optional .box {
+	background-color: white;
+	border-radius:8px;
+	overflow:hidden;
+	box-shadow: 0 0 33px rgba(0,0,48,0.12);
+}
+
+.optional .box .content {
+	padding: 1rem;
+}
+
+#footer {
+	background-color: var(--ai-black);	
+	color: silver;
+}
+
+
+@media (max-width: 640px) {
+	h1.title { font-size: 44px; line-height: 48px; }
+}
+
+@media (max-width: 440px) {
+	.wrapper h2 { font-size: 1.6rem; padding: 10px 20px; }
+	.wrapper .group { padding:20px; }
+
+}
