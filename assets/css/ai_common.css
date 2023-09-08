@@ -29,12 +29,12 @@ input.error, select.error {border-color: var(--ai-red);}
 }
 
 button#Order {
-	background-color: var(--ai-red);
+	background-color: rgb(1, 0, 50);
 	border-radius: 30px;
 }
 
 button#Order:hover {
-	background-color: var(--ai-red2);	
+	background-color: #38B6FF;	
 }
 
 .badge {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {font-weight:700}
 }
 
 .wrapper h2 {
-	background-color: var(--ai-black);
+	background-color: #38B6FF;
 	color: white;
 	font-weight: 700;
 	padding: 10px 40px;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {font-weight:700}
 }
 
 #footer {
-	background-color: var(--ai-black);	
+	background-color: #000000;	
 	color: silver;
 }
 
